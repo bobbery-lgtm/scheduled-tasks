@@ -17,7 +17,7 @@ import os
 
 # Email details for the "from" account
 my_email = os.environ.get("MY_EMAIL")
-password = os.environ.get("PASSWORD")
+password = os.environ.get("MY_PASSWORD")
 
 # List of possible letter templates
 letter_list = ("letter_1.txt", "letter_2.txt", "letter_3.txt")
